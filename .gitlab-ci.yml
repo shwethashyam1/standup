@@ -1,8 +1,13 @@
 ---
+# include:
+#   - project: SocialGouv/gitlab-ci-yml
+#     file: /autodevops_simple_app.yml
+#     ref: v15.7.0
+
 include:
   - project: SocialGouv/gitlab-ci-yml
-    file: /autodevops_simple_app.yml
-    ref: v15.7.0
+    file: /autodevops.yml
+    ref: v17.0.0-beta.22
 
 variables:
   PROJECT: "standup"
