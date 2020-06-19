@@ -7,7 +7,7 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v17.0.0-beta.22
+    ref: v17.0.0-beta.24
 # variables:
 #   PROJECT: "standup"
 #   PORT: 3000
