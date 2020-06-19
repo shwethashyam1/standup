@@ -8,6 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "k8s": "yarn --silent --cwd .k8s",
     "lint": "eslint src/pages/* src/lib/* src/components/*",
     "test": "exit 0"
   },
